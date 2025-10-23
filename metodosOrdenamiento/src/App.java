@@ -20,7 +20,7 @@ public class App {
         claseSortBubble.printArray(numeros);*/
 
         //METODO SELECCION
-        SortSeleccion x = new SortSeleccion();
+       /*  SortSeleccion x = new SortSeleccion();
         SortSeleccion claseSortSeleccion =  new SortSeleccion();
         System.out.println("METODO SELECCION");
         System.out.println("*****Arreglo original*********");
@@ -32,7 +32,18 @@ public class App {
 
         System.out.println("******Orden Descendente*****");
         claseSortSeleccion.sortDescendente(numeros);
-        claseSortSeleccion.printArray(numeros);
+        claseSortSeleccion.printArray(numeros);*/
+
+        //METODO INSERCION
+        SortInsercion x = new SortInsercion();
+        SortInsercion claseSortInsercion = new SortInsercion();
+        System.out.println("METODO INSERCION");
+        System.out.println("*****Arreglo Original*****");
+        claseSortInsercion.printArray(numeros);
+
+        System.out.println("*****Orden Ascendente*****");
+        claseSortInsercion.sortAscendente(numeros);
+        claseSortInsercion.printArray(numeros);
 
     }
 }
