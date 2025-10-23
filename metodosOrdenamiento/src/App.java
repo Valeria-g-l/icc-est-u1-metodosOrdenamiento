@@ -30,7 +30,7 @@ public class App {
         claseSortSeleccion.sortAscendente(numeros);
         claseSortSeleccion.printArray(numeros);
 
-        System.out.println("*****Orden Descendente*****");
+        System.out.println("******Orden Descendente*****");
         claseSortSeleccion.sortDescendente(numeros);
         claseSortSeleccion.printArray(numeros);
 
