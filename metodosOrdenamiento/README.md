@@ -29,8 +29,10 @@ Arreglo de cadenas (nombres)
 
 
 Arreglo de personas Ordenadas por nombre
+
 ![alt text](assets/ArregloDePersonasPorNombre.png)
 
 
 Arreglo de personas Ordenadas por edad
+
 ![alt text](assets/ArregloDePersonasPorEdad.png)
