@@ -34,7 +34,7 @@ public class App {
         claseSortSeleccion.sortDescendente(numeros);
         claseSortSeleccion.printArray(numeros);*/
 
-        /* //METODO INSERCION
+        //METODO INSERCION
         SortInsercion x = new SortInsercion();
         SortInsercion claseSortInsercion = new SortInsercion();
         System.out.println("METODO INSERCION");
@@ -42,17 +42,25 @@ public class App {
         claseSortInsercion.printArray(numeros);
 
         System.out.println("*****Orden Ascendente*****");
-        claseSortInsercion.sortAscendente(numeros, true);
-        claseSortInsercion.printArray(numeros);*/
+        claseSortInsercion.sortAscendente(numeros, false);
+        claseSortInsercion.printArray(numeros);
+        
+        System.out.println("*****Orden Descendente*****");
+        claseSortInsercion.sortDescendente(numeros, false);
+        claseSortInsercion.printArray(numeros);
 
-       /*  String[] nombres = {"Pedro", "Ana", "Maria", "Luis", "Juan"};
-        SortInsercion x = new SortInsercion();
-        SortInsercion claseSortInsercion = new SortInsercion();
+        System.out.println();
+        System.out.println("Estudidante: Valeria Guaman");
+
+       String[] nombres = {"Pedro,", "Ana,", "Maria,", "Luis", "Juan"};
         System.out.println(" Array de Nombres original");
         claseSortInsercion.printArray(nombres);
-        claseSortInsercion.sortByName(nombres, true);
+        claseSortInsercion.sortByName(nombres, false);
         System.out.println("Ordenado por nombre");
-        claseSortInsercion.printArray(nombres);*/
+        claseSortInsercion.printArray(nombres);
+
+        System.out.println();
+        System.out.println("Estudidante: Valeria Guaman");
 
         Persona[] personas = new Persona[]{
             new Persona("Pedro", 30),
@@ -60,12 +68,15 @@ public class App {
             new Persona("Maria", 28)
         };
 
-        SortInsercion claseSortInsercion = new SortInsercion();
         System.out.println("Array de Personas original:");
         claseSortInsercion.printArrayPersonas(personas);
         System.out.println("Ordenado por edad:");
         claseSortInsercion.sortPersonasByAge(personas);
         claseSortInsercion.printArrayPersonas(personas);
+
+        System.out.println();
+        System.out.println("Estudidante: Valeria Guaman");
+
         System.out.println("Array de Personas original:");
         claseSortInsercion.printArrayPersonas(personas);
         System.out.println("Ordenado por nombre:");
