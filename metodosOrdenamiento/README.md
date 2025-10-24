@@ -19,17 +19,18 @@ Salida de Java
 ![alt text](assets/SortSelectionjava.png)
 
 
-Arrelgo de numeros enteros
-![alt text](image.png)
+Arreglo de numeros enteros
 
+![alt text](assets/ArregloDeNumerosEnteros.png)
 
 Arreglo de cadenas (nombres)
-![alt text](image.png)
+
+![alt text](assets/ArregloDeCadenas.png)
 
 
 Arreglo de personas Ordenadas por nombre
-![alt text](image-2.png)
+![alt text](assets/ArregloDePersonasPorNombre.png)
 
 
 Arreglo de personas Ordenadas por edad
-![alt text](image-1.png)
+![alt text](assets/ArregloDePersonasPorEdad.png)
